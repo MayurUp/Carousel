@@ -1,0 +1,59 @@
+#sync1 .item {
+  padding: 80px 0px;
+  margin: 2px;
+  color: #FFF;
+  border-radius: 3px;
+  text-align: center;
+  margin: 0 auto;
+}
+#sync2 .item {
+  padding: 10px 0px;
+  margin: 2px;
+  color: #FFF;
+  border-radius: 1px;
+  text-align: center;
+  cursor: pointer;
+}
+.current .item{
+    background: #000;
+  }
+#sync2 .item h1 {
+  font-size: 18px;
+}
+.center {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
+.center2 {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+.owl-theme .owl-nav {
+  /*default owl-theme theme reset .disabled:hover links */
+}
+.owl-theme .owl-nav [class*='owl-'] {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+.owl-theme .owl-nav [class*='owl-'].disabled:hover {
+  background-color: #D6D6D6;
+}
+#sync1.owl-theme {
+  position: relative;
+}
+#sync1.owl-theme .owl-next,
+#sync1.owl-theme .owl-prev {
+  width: 22px;
+  height: 40px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+}
+#sync1.owl-theme .owl-prev {
+  left: 10px;
+}
+#sync1.owl-theme .owl-next {
+  right: 10px;
+}
